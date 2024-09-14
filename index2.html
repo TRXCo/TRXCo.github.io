@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS WIKI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .muscle-group {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .muscle-group:hover {
+            transform: scale(1.05);
+        }
+        .muscle-group img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .muscle-group h2 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FITNESS WIKI</h1>
+        <p>A guide to establishing the best exercises for each muscle!</p>
+    </header>
+
+    <div class="container">
+        <!-- Muscle Group: Arms -->
+        <div class="muscle-group">
+            <img src="https://www.armyourbody.com/images/kevin-levrone-arms.jpg" alt="Arms">
+            <h2><a href="arms.html">Arms</a></h2>
+        </div>
+
+        <!-- Muscle Group: Legs -->
+        <div class="muscle-group">
+            <img src="https://flat12.me/wp-content/uploads/2021/05/tom-platz-leg-workout-1-683x1024.jpg" alt="Legs">
+            <h2><a href="legs.html">Legs</a></h2>
+        </div>
+
+        <!-- Muscle Group: Chest -->
+        <div class="muscle-group">
+            <img src="https://www.simplyshredded.com/wp-content/uploads/2010/01/nubret2.jpg" alt="Chest">
+            <h2><a href="chest.html">Chest</a></h2>
+        </div>
+
+        <!-- Muscle Group: Back -->
+        <div class="muscle-group">
+            <img src="https://www.simplyshredded.com/wp-content/uploads/2010/01/12549_1272321810806_1312719650_30832544_4433250_n.jpg" alt="Back">
+            <h2><a href="back.html">Back</a></h2>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fitness Wiki by Jahswill Okwuako</p>
+    </footer>
+</body>
+</html>
